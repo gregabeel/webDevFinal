@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Résumé</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header style="background-image: url('retrowave.jpeg'); background-size: cover; color: white; padding: 20px; text-align: center;">
+        <h1>Greg Abeel</h1>
+        <p>158 West Hanover Avenue, Randolph, NJ 07869 | gregabeel5@gmail.com | 201 841 3796</p>
+    </header>
+
+    <nav>
+        <a href="cover-letter.html">Cover Letter</a>
+        <a href="career-goals.html">Career Goals</a>
+    </nav>
+
+    <div id="current-date"></div>
+
+    <main>
+        <article>
+            <h2>Objective</h2>
+            <p>To obtain a position as a Full Stack Developer where I can utilize my skills in web development and contribute to innovative projects.</p>
+        <section>
+            <h2>Summary</h2>
+            <p>I have <strong>two years of IT experience working in a lab and office setting.</strong> <br>My career goal is to become a <span style="color: blueviolet; font-weight: bold;"> Full stack developer.</span>  I have foundational skills in <br> <em><strong>web development.</em>Including skills in <em>html, css, and javascript</strong></em>.</p>
+        </section>
+        </article>
+    
+        <article>    
+        <section>
+            <h2>Experience</h2>
+            <ul>
+                <li><strong>IT Support Technician</strong> - Novartis (Sep 2017 - June 2019)</li>
+                <li>Migrate users to new machines.</li>
+                <li>Assist users with technical issues.</li>
+                <li>Oversee all medical and technical devices in a clean room and lab environment.</li>
+            </ul>
+        </section>
+        </article>
+        <hr>
+        <section>
+            <h2>Certifications</h2>
+            <table>
+                <caption>Certifications Table</caption>
+                <thead>
+                    <tr>
+                        <th>Certification</th>
+                        <th>Institution</th>
+                        <th>Year</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Security Plus</td>
+                        <td>CompTIA</td>
+                        <td>2023</td>
+                        <td>Completed</td>
+                    </tr>
+                    <tr>
+                        <td>Network Plus</td>
+                        <td>CompTIA</td>
+                        <td>2023</td>
+                        <td>Completed</td>
+                    </tr>
+                    <tr>
+                        <td>A Plus</td>
+                        <td>CompTIA</td>
+                        <td>2023</td>
+                        <td>Completed</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <hr>
+        <p>&copy; 2025 Greg Abeel. All rights reserved.</p>
+    </footer>
+
+    <script>
+        document.getElementById('current-date').textContent = `Date: ${new Date().toLocaleDateString()}`;
+        console.log("Welcome to my résumé!");
+    </script>
+</body>
+</html>
